@@ -16,7 +16,7 @@
     <main>
         <label id="to-convert">
             Converter <b>de</b>
-            <select class="select-to-convert">
+            <select class="select-to-convert" onchange="selectChange()">
 
                 <option value="real">R$ Real Brasileiro</option>
                 <option value="dolar">US$ Dólar americano</option>
@@ -28,7 +28,7 @@
         </label>
         <label id="converted">
             Converter <b>para</b>
-            <select class="select-converted">
+            <select class="select-converted" onchange="selectChangeConverted()">
 
                 <option value="dolar">US$ Dólar americano</option>
                 <option value="euro">€ Euro</option>
