@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Convert Money</title>
+</head>
+
+<body>
+    <img src="./assets/img-logo-C.M.gif" alt="img-logo-Convert-Money" id="img-logo">
+    <main>
+        <label id="to-convert">
+            Converter <b>de</b>
+            <select class="select-to-convert">
+
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+
+            </select>
+        </label>
+        <label id="converted">
+            Converter <b>para</b>
+            <select class="select-converted">
+
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="libra">£ Libra</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+                <option value="real">R$ Real Brasileiro</option>
+
+            </select>
+        </label>
+        <label>
+            <h3>Valor</h3>
+            <input class="input-value" placeholder="R$ 100,00">
+        </label>
+        <button class="button-convert">Converter</button>
+
+        <aside class="wrapping">
+                <div class="currency-box">
+
+                    <img src="./assets/Real-img.png" alt="currency-to-convert" id="image-to-convert"
+                        class="img-currency">
+                    <p class="currency-to-convert">Real</p>
+                    <h2 class="currency-value-to-convert">R$ 0,00</h2>
+                </div>
+
+                <img src="./assets/arrow-img.png" alt="img-arrow" id="img-arrow">
+
+                <div class="currency-box"">
+                    <img src="./assets/Dólar-img.png" alt="currency-converted" id="image-converted"
+                        class="img-currency">
+                    <p class="currency-converted">Dólar Americano</p>
+                    <h2 id="currency-value">US$ 0.00</h2>
+                </div>
+        </aside>
+    </main>
+</body>
+<script src="./scripts.js"></script>
+</html>
