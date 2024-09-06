@@ -3,7 +3,10 @@
 <a align="center" href="https://www.linkedin.com/in/adrian-oliveira-74801b2b2/" ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <br>
 <br>
-<p>Olá tudo bem? Hoje estou apresentando um novo projeto, Convert Money. Feito com as duas principais tecnologias utilizadas no Front End, e com uma linguagem de programação.</p>
+<p>Olá tudo bem? Hoje estou apresentando um novo projeto, Convert Money. Feito com as duas principais tecnologias utilizadas no Front End, e com uma linguagem de programação, Java Script.
+ <br>
+ Esse projeto é capaz de converter as maiores moedas da atualidade como o Real, Dólar, Libra, Euro e até mesmo a principal moeda digital o Bitcoin.
+</p>
 
 <h1>Tecnologias:</h1>
 
@@ -17,5 +20,5 @@
  
 
 <div align="center">
-    <img width="350px" alt="layout" src="https://github.com/AdrianPGM/Easy-Shopping/blob/master/assets/layout.png?raw=true"/>
+    <img width="400px" alt="layout" src="assets/web-site-preview.png"/>
 <div>
